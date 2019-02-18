@@ -1,1 +1,1 @@
-# WT
+# All the Assignmets and Practicals
