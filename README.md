@@ -1,1 +1,1 @@
-# All the Assignmets and Practicals
+# All Practicals
