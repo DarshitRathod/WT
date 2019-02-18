@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+<form name="fibo">
+	<input type="number" id="fib" name="n"/>
+	<input type="button" onclick="fibonaci()" value="Click"/>
+</form>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script type="text/javascript">
+
+var cars,no,x;
+var arr = new Array();
+function fibonaci()
+{
+	var i=0,j=1;
+	arr[0] = 0;
+	arr[1] = 1;
+	//document.getElementById("demo").innerHTML = arr;	
+	x =document.fibo.n.value;
+	no= parseInt(x);
+	for(k=0;k<no-2;k++)
+	{
+	var sum = i + j;
+	arr[k+2] = sum; 
+	i = j;
+	j = sum;
+		
+	}
+document.getElementById("demo1").innerHTML = "Your Fibonaci Series is "+"<br/>"+"<br/>"+ arr ;
+			
+}
+
+
+</script>
+
+</body>
+</html>

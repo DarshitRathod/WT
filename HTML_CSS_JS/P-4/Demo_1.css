@@ -1,0 +1,14 @@
+h1{
+	font-size:120%;
+	
+}
+.arial{
+	font-family:arial;
+	font-style:bold;
+}
+.back{
+	
+	background-image:url("../icons/google.png");
+	background-color:yellow;
+	background-repeat:no-repeat;
+}

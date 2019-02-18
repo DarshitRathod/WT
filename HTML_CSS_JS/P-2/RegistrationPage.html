@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <br/>
+        <br/>
+        <h2 align="center"><u><font face="sans-serif">Registration Form</font></u></h2>
+        <br/>
+        <br/>
+        <br/>
+        <form  name="regfrm" method="post" action="">
+            
+            <table frame="box" align="center"  cellpadding="12%"> 
+                
+                <tr>
+                    <th>
+                        <label>User Name:</label>
+                    </th>
+                    <td >
+                        <input type="text" name="username" size="50" placeholder="Enter your Username" />
+                    </td>
+                </tr>	
+                <tr>
+                    <th >
+                        <label>Password:</label>
+                    </th>
+                    <td >
+                        <input type="password" name="userpassword" size="30" placeholder="Enter your Password" />
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <th >
+                        <label>E-mail:</label>
+                    </th>
+                    <td >
+                        <input type="email" name="useremail" size="50" placeholder="xyz@abc.com" />
+                    </td>	
+                </tr>
+                <tr>
+                    <th >
+                        <label>No:</label>
+                    </th>
+                    <td >
+                        <input type="number" name="userno" size="50" />
+                    </td>	
+                </tr>
+                <tr>
+                    <th >
+                        <label>Gender</label>
+                    </th>
+                    <td>
+                        <input type="radio" name="usergen"  id="male"/>
+                        <label for="male" >Male</label> &nbsp;
+                        <input type="radio" name="usergen"  id="female"/>
+                        <label for="female" >Female</label>
+                    </td>	
+                </tr>
+                <tr>
+                    <th>
+                        <label>Hobbies:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="userhobbies" value="Dancing" id="hob1">
+                        <label for="hob1">Dance</label>
+                        <input type="checkbox" name="userhobbies" value="Singing" id="hob2">
+                        <label for="hob2">Sing</label>
+                        <input type="checkbox" name="userhobbies" value="Reading" id="hob3">
+                        <label for="hob3">Read</label>
+                    </td>	
+                </tr>
+                <tr>
+                    <th>
+                        <label>Address:</label>
+                    </th>
+                    <td>
+                        <address>
+                            <textarea></textarea>
+                        </address>	
+                    </td>	
+                </tr>
+                <tr>
+                    <th>
+                        <label>City:</label>
+                    </th>
+                    <td>
+                        <select id="city">
+                            <option value="raj">Rajkot</option>
+                            <option value="por">Porbandar</option>
+                            <option value="jam">Jamnagar</option>
+                        </select>	
+                    </td>	
+                </tr>
+                <tr>
+                    <th>
+                        <label>State:</label>
+                    </th>
+                    <td>
+                        <select id="state">
+                            <option value="guj">Gujarat</option>
+                            <option value="mah">Maharashtra</option>
+                            <option value="rj">Rajasthan</option>
+                        </select>	
+                    </td>	
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" name="regregister"  value="Register" />
+                        &nbsp; &nbsp; &nbsp; &nbsp;	
+                        <input type="reset" name="regreset"  value="Reset" />
+                    </td>			
+                    
+                </tr>		
+                
+            </table>
+        </form>
+    </body>
+</html>
